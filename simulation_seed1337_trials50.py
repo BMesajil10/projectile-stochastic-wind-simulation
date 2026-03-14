@@ -79,7 +79,7 @@ class WindEngine:
         return np.clip(wind, -self.clip, self.clip)
 
 #Features
-USE_GUI = True
+USE_GUI = False
 dt = 1.0/480.0
 SIM_DURATION_S = 20.0       # Maximum of 20 seconds
 SIMULATION_STEPS = int(SIM_DURATION_S / dt)
