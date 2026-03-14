@@ -18,10 +18,8 @@ The script generates a CSV dataset of 3D trajectories for use in ML training/eva
   - `pybullet`
   - `numpy`
 
-Install:
+## Install:
 ```bash
 pip install -r requirements.txt
 
-## Run:
-pip install -r requirements.txt
-python simulate.py
+python simulation_seed1337_trials50.py
