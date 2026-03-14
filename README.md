@@ -18,13 +18,7 @@ The script generates a CSV dataset of 3D trajectories for use in ML training/eva
   - `pybullet`
   - `numpy`
 
-## Install:
+## Install
 ```bash
 pip install -r requirements.txt
-
 python simulation_seed1337_trials50.py
-
-```md
-Running the simulator creates:
-
-- `Simulation.csv` — trajectory dataset (one row per sampled timestep per trial)
